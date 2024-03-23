@@ -1,8 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
 export default function airports(req, res) {
-  const data= {
-    "airports": [
+  const data=  [
       {
         "code": "DEL",
         "name": "Indira Gandhi International Airport",
@@ -68,10 +67,9 @@ export default function airports(req, res) {
           "passengerCapacity": 32200000
         }
       }
-    ]
-  };
+    ];
 
   // appending count of airports
-  data.count= data.airports.length;
-  res.status(200).json({data});
+  // data.count= data.airports.length;
+  res.status(200).json(data);
 }

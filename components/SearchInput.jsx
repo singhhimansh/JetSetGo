@@ -14,12 +14,9 @@ export const SearchableInput=({
     value,
     onChange,
     options,
-    landing= false,
-    
+    landing= false,  
 }) =>{
-//   const [value, setValue] = useState(options[0]);
   const [inputValue, setInputValue] = useState('');
-  console.log({options})
   return (
     <Box>
       <Autocomplete
@@ -32,7 +29,7 @@ export const SearchableInput=({
         onInputChange={(event, newInputValue) => {
           setInputValue(newInputValue);
         }}
-        getOptionLabel={(option) => option.label + `  [${option.code}]`  }
+        // getOptionLabel={(option) => option.label  }
         // getOptionLabel={(option) => (
         //   <Box>
         //     <FlightIcon fill="blue" />

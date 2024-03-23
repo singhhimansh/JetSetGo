@@ -1,7 +1,5 @@
 import { Box, Divider, IconButton, Typography } from "@mui/material";
 import React from "react";
-import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
-import RemoveCircleOutlineIcon from "@mui/icons-material/RemoveCircleOutline";
 
 function Counter({ count, label, type, setCounts }) {
   return (
@@ -19,7 +17,7 @@ function Counter({ count, label, type, setCounts }) {
             })
           }
         >
-          +{/* <AddCircleOutlineIcon /> */}
+          {'+'}
         </IconButton>
         <Divider orientation="vertical" variant="middle" flexItem />
         <Typography className="">{count[type]}</Typography>
@@ -35,7 +33,7 @@ function Counter({ count, label, type, setCounts }) {
             })
           }
         >
-          -{/* <RemoveCircleOutlineIcon /> */}
+          {'-'}
         </IconButton>
       </Box>
     </Box>
