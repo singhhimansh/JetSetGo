@@ -7,7 +7,7 @@ export default function airports(req, res) {
         "code": "DEL",
         "name": "Indira Gandhi International Airport",
         "fullName": "Indira Gandhi International Airport",
-        "city": "New Delhi",
+        "city": "Delhi",
         "country": "India",
         "flags": ["international", "major"],
         "details": {
@@ -33,7 +33,7 @@ export default function airports(req, res) {
         "code": "BLR",
         "name": "Kempegowda International Airport",
         "fullName": "Kempegowda International Airport",
-        "city": "Bengaluru",
+        "city": "Bangalore",
         "country": "India",
         "flags": ["international", "major"],
         "details": {

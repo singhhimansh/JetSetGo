@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { useRouter } from "next/router";
 import { Box, CircularProgress } from "@mui/material";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
